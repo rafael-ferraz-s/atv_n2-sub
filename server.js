@@ -15,6 +15,7 @@ wss.on('connection', (ws) => {
         // Certifique-se de enviar o texto puro, sem Buffer
         client.send(message.toString());
       }
+      
     });
   });
 
