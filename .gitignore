@@ -1,0 +1,24 @@
+# Ignorar a pasta node_modules
+node_modules/
+
+# Ignorar logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Ignorar saída de build
+dist/
+build/
+
+# Ignorar cache de pacotes
+.cache/
